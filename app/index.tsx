@@ -8,7 +8,7 @@ import {
 } from "@expo-google-fonts/roboto";
 import { Stack } from "expo-router";
 import { StatusBar } from "react-native";
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components/native";
 
 export default function Index() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
